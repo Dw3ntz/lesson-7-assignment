@@ -1,0 +1,170 @@
+body {
+    color: #444444;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 17px;
+}
+
+.wrapper {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 1px;
+}
+
+header {
+    background-color: #03a3df;
+    height: 8rem;
+    padding: 10px;
+}
+
+header p {
+    float: right;
+    color: #FFF;
+}
+
+nav a {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: #1b447f;
+    display: block;
+    padding: 20px 10px 10px 10px;
+    text-decoration: none;
+    border-bottom: 1px dashed #1b447f;
+}
+
+nav a:hover {
+    background-color: #ecb722;
+    color: #FFF;
+}
+
+
+h2 {
+    color: #1b447f;
+    font-family: "Arial Bold", sans-serif;
+    font-size: 24px;
+    border-bottom: 3px solid #ecb722;
+}
+
+h3 {
+    color: #444;
+    font-family: "Arial Bold", sans-serif;
+    font-size: 17px;
+}
+
+.maincol section, h2 {
+    padding: 0px 10px 0px 10px;
+}
+
+.maincol p {
+    width: 80%;
+    padding-left: 3em;
+    line-height: 2em;
+}
+
+strong {
+    color: #1b447f;
+}
+
+iframe {
+    padding: 50px;
+    border: 0;
+}
+
+aside {
+    border: 3px solid #ecb722;
+}
+
+.asidecol {
+    padding-top: 2.9em;
+}
+
+table {
+    border: 3px solid #ecb722;
+}
+
+#homeschedule th {
+    color: #1b447f;
+}
+ 
+#homeschedule td, th {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ecb722;
+}
+
+#policy th {
+    color: #1b447f;
+}
+
+#policy td {
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
+    border: 1px solid #ecb722;
+}
+
+#privatelesson th {
+    color: #1b447f;
+}
+
+#privatelesson td {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ecb722;
+}
+
+.classes p {
+    width: 80%;
+    padding-left: 3em;
+    line-height: 1.5em;
+    border-bottom: 3px solid #ecb722;
+    padding-bottom: 15px;
+}
+
+.instructors article {
+    background-color: #1b447f;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.instructors h3 {
+    float: right;
+    color: #ecb722;
+    font-size: 18px;
+    padding-right: 22em;
+    padding-top: 4em;
+}
+
+.instructors p {
+    border-top: 1px solid #ecb722;
+    padding-top: 5px;
+    clear: both;
+    color: #FFF;
+    font-size: 16px;
+}
+
+footer {
+    color: #FFF;
+    height: 15em;
+    width: 100%;
+    display: inline-flex;
+    background-image:url(footerImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer img {
+    padding-left: 2em;
+    padding-top: 4em;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 9em;
+    width: 60%;
+    font-size: 12px;
+}
+
+
