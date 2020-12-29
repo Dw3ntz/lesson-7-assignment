@@ -62,6 +62,16 @@ h3 {
     line-height: 2em;
 }
 
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0;
+}
+
 strong {
     color: #1b447f;
 }
